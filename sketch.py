@@ -41,11 +41,12 @@ OUTPUT = "sketch.svg"
 # ---------------------------------------------------------------------------
 
 
-def square(x, y, size, angle_deg, dx, dy):
+def square(x, y, size, angle_deg, dx, dy, stroke):
     """One square, rotated about its own centre and nudged off its grid slot."""
     cx, cy = x + size / 2, y + size / 2
     return (
         f'  <rect x="{x:.2f}" y="{y:.2f}" width="{size}" height="{size}" '
+        f'stroke="{stroke}" '
         f'transform="translate({dx:.2f} {dy:.2f}) '
         f'rotate({angle_deg:.2f} {cx:.2f} {cy:.2f})" />'
     )
@@ -59,6 +60,10 @@ def draw():
         # Disorder grows with depth. Squaring it keeps the top calm and lets the
         # bottom really come apart — the whole point of the piece.
         damage = CHAOS * (row / ROWS) ** 2
+        size = SQUARE * (1 - 0.6 * row / max(ROWS - 1, 1))
+        fade = row / max(ROWS - 1, 1)
+        shade = round(17 + (200 - 17) * fade)
+        stroke = f"#{shade:02x}{shade:02x}{shade:02x}"
 
         for col in range(COLS):
             x = MARGIN + col * SQUARE
@@ -66,7 +71,7 @@ def draw():
             angle = rng.uniform(-1, 1) * damage * 45
             dx = rng.uniform(-1, 1) * damage * SQUARE * 0.5
             dy = rng.uniform(-1, 1) * damage * SQUARE * 0.5
-            parts.append(square(x, y, SQUARE, angle, dx, dy))
+            parts.append(square(x, y, size, angle, dx, dy, stroke))
 
     width = COLS * SQUARE + MARGIN * 2
     height = ROWS * SQUARE + MARGIN * 2
