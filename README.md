@@ -46,16 +46,11 @@ Learning programming does not mean writing every line from memory. It means unde
 
 ### 3. Example: Starting the Generative Artwork
 
-- Describe the ordered grid of repeated squares, inspired by Georg Nees' *Schotter* (1968).
-- Explain that AI helped generate and modify the Python code for the artwork.
-- Emphasise that receiving code was only the beginning: the important decisions came from looking at the visual result and deciding whether it worked.
+I started the artwork with an ordered grid of repeated squares, inspired by Georg Nees' *Schotter* (1968). AI helped me generate and modify the Python code, which made it possible to build the idea while I am still new to programming. However, I did not simply accept the first result because the code worked. I looked at the generated image and considered whether it showed the visual change I wanted. This taught me that learning programming with AI is not just about getting code from a prompt. I need to understand enough to describe an idea, recognise what the code is changing, and judge the result.
 
 ### 4. Example: Directing and Evaluating AI Output
 
-- Explain that the first `CHAOS` value was `1.0`.
-- Describe judging the result and deciding that the transition from order to disorder was not strong enough.
-- Explain the decision to change `CHAOS` to `2.0` and how this made the visual change more noticeable.
-- Connect this to programming knowledge: understanding the parameter made it possible to ask for a specific change and evaluate the result.
+The first `CHAOS` value was `1.0`, but the transition from order to disorder did not feel visually strong enough. I changed it to `2.0`, and the falling-apart effect became much clearer. Understanding what the parameter controlled helped me give AI a precise instruction instead of asking for a vague improvement. It also helped me judge whether the change worked. I could compare the new image with what I wanted the artwork to communicate. The AI helped carry out the change, but I was responsible for noticing the problem and deciding that a stronger value was needed.
 
 ### 5. Example: Making Creative Decisions Beyond the Prompt
 
