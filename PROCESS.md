@@ -24,7 +24,7 @@ The tutor-provided ordered grid gave me a clear starting point. The repeated squ
 
 ### Iteration 2: Falling-Apart Structure
 
-AI helped implement rotation and displacement so the squares became increasingly disordered toward the bottom. The initial `CHAOS` value was `1.0`. After looking at the generated image, I decided that the transition from order to disorder was too weak, so I changed `CHAOS` to `2.0`. The stronger value made the falling-apart effect much clearer.
+The tutor-provided code already used rotation and displacement so the squares became increasingly disordered toward the bottom. I used AI to help me understand how this existing system worked. The initial `CHAOS` value was `1.0`. After looking at the generated image, I decided that the transition from order to disorder was too weak, so I changed `CHAOS` to `2.0`. The stronger value made the falling-apart effect much clearer.
 
 ### Iteration 3: Changing Scale
 
@@ -53,7 +53,7 @@ I used GitHub Copilot to help me understand and modify the tutor-provided Python
 
 ### Kept
 
-I kept the AI-assisted code changes for increasing disorder, changing the square size, and fading the outlines. I kept them because they successfully implemented the visual changes I wanted after I evaluated the generated images.
+I kept the AI-assisted modifications that helped me adjust the existing `CHAOS` system, make the squares gradually smaller, and fade the outlines. I kept them because they successfully implemented the visual changes I wanted after I evaluated the generated images.
 
 ### Rejected
 
