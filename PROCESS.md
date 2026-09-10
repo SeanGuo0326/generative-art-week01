@@ -6,21 +6,21 @@
 
 ## Initial Idea
 
-I am an art and design student who is new to programming. I wanted to make a generative artwork that I could develop by looking at the visual results and deciding what to change. I started with a repeated square because it gave me a clear and simple structure to work from.
+I am an art and design student who is new to programming. The tutor provided the starting Python code as a class exercise, and it gave me a clear and simple structure to understand and modify. I wanted to develop the artwork by looking at the visual results and deciding what to change.
 
 ## Reference
 
-The artwork was inspired by Georg Nees' *Schotter* (1968). I used the idea of an ordered grid that gradually becomes disordered, while making my own changes to the size and colour of the squares.
+The tutor-provided class exercise was based on Georg Nees' *Schotter* (1968-1970). I worked with the idea of an ordered grid that gradually becomes disordered, while making my own changes to the movement, size, and colour of the squares.
 
 ## Starting System
 
-The first version used an ordered grid of repeated squares. The squares began in regular positions and created a stable pattern. GitHub Copilot helped me generate and modify the Python code for the artwork. I also used AI to help organise and draft parts of the written reflection, but I reviewed and edited that writing myself.
+The tutor's starting code used an ordered grid of repeated squares. The squares began in regular positions and created a stable pattern. I used GitHub Copilot to help me understand and modify the existing Python code. I also used AI to help organise and draft parts of the written reflection, but I reviewed and edited that writing myself.
 
 ## Iterations
 
 ### Iteration 1: Ordered Grid
 
-The ordered grid gave me a clear starting point. The repeated squares looked stable and controlled, which made it possible to see the changes in the later versions.
+The tutor-provided ordered grid gave me a clear starting point. The repeated squares looked stable and controlled, which made it possible to see the changes in the later versions.
 
 ### Iteration 2: Falling-Apart Structure
 
@@ -40,7 +40,7 @@ I then decided that the outlines should fade from black to light grey. Together 
 - Chaos: I changed the value from `1.0` to `2.0` after judging the first generated image.
 - Size progression: the squares gradually become smaller toward the bottom.
 - Colour progression: the outlines gradually change from black to light grey.
-- AI implementation: GitHub Copilot helped generate and modify the Python code.
+- AI implementation: GitHub Copilot helped me understand and modify the tutor-provided Python code.
 - Written reflection: AI helped organise and draft parts of the reflection, which I reviewed and edited myself.
 
 ## Observations
@@ -49,7 +49,7 @@ The most important part of the process was looking at each generated result and 
 
 ## AI Disclosure
 
-I used GitHub Copilot to help generate and modify Python code for the generative artwork. I also used AI to help organise and draft parts of the written reflection. I reviewed and edited the written results myself.
+I used GitHub Copilot to help me understand and modify the tutor-provided Python code for the generative artwork. I also used AI to help organise and draft parts of the written reflection. I reviewed and edited the written results myself. My creative decisions included increasing `CHAOS` from `1.0` to `2.0`, making the squares gradually smaller, and changing the outlines from black to light grey after evaluating the visual results.
 
 ### Kept
 
@@ -67,4 +67,4 @@ I rejected an early AI-assisted interpretation of the essay question "Why are we
 
 ## Final Reflection
 
-This process showed me that using AI for code does not remove the need for my own programming knowledge or judgement. I needed to understand enough to describe changes, recognise what the code was doing, and decide whether the image worked. AI helped me implement the artwork, but I remained responsible for choosing the direction of the work and deciding what to keep or reject.
+This process showed me that using AI with existing code does not remove the need for my own programming knowledge or judgement. I needed to understand the tutor-provided code well enough to describe changes, recognise what it was doing, and decide whether the image worked. My decisions to increase `CHAOS` from `1.0` to `2.0`, make the squares smaller, and fade the outlines came from evaluating the visual results. AI helped me modify the artwork, but I remained responsible for choosing its direction and deciding what to keep or reject.
